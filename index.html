@@ -32,74 +32,69 @@
       text-align: center;
       border-bottom: 1px solid #e5e7eb;
     }
-/* 상단 간판 이미지 스타일 */
-.header-banner {
-  width: 100%;          /* 부모 요소 너비에 맞게 꽉 채우기 */
-  max-width: 600px;     /* 이미지가 너무 커지지 않도록 최대 너비 제한 (원하는 크기로 조절 가능) */
-  height: auto;         /* 비율 유지 */
-  display: block;
-  margin: 0 auto 20px auto; /* 가운데 정렬 및 아래쪽 여백(20px) 주기 */
-  border-radius: 8px;   /* 모서리를 살짝 둥글게 처리하고 싶을 때 (선택사항) */
-}
-    
-    /* 전체 소개글 글자 크기 조절 (원하시는 크기인 14px~15px 정도로 지정) */
-.header .sub-description {
-  font-size: 14.5px;
-  line-height: 1.6;
-  color: #333333;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  text-align: left; /* 혹은 center 원하시는 정렬 */
-}
 
-/* 프로그램 및 운영 방식 구역 스타일 (아래 칸으로 내리고 간격 주기) */
-.program-section, .operation-section {
-  margin-top: 20px;
-  text-align: left;
-}
-
-/* 섹션 소제목 스타일 */
-.section-title {
-  font-size: 15px;
-  font-weight: bold;
-  color: #111111;
-  margin-bottom: 8px;
-}
-
-/* 각 항목 본문 글자 크기 및 줄간격 */
-.program-item, .operation-item {
-  font-size: 13.5px;
-  line-height: 1.5;
-  color: #555555;
-  margin-bottom: 6px;
-  padding-left: 5px;
-}
+    /* 상단 간판 이미지 스타일 */
+    .header-banner {
+      width: 100%;          /* 부모 요소 너비에 맞게 꽉 채우기 */
+      max-width: 600px;     /* 이미지가 너무 커지지 않도록 최대 너비 제한 */
+      height: auto;         /* 비율 유지 */
+      display: block;
+      margin: 0 auto 20px auto; /* 가운데 정렬 및 아래쪽 여백 지정 */
+      border-radius: 8px;   /* 모서리를 살짝 둥글게 */
+    }
 
     .main-title {
-  margin: 0;
-  text-align: center;
-  line-height: 1.3;
-}
+      margin: 0;
+      text-align: center;
+      line-height: 1.3;
+    }
 
-.main-title .line1 {
-  display: block;
-  font-size: 64px;
-  font-weight: 800;
-  color: #111827;
-}
+    .main-title .line1 {
+      display: block;
+      font-size: 64px;
+      font-weight: 800;
+      color: #111827;
+    }
 
-.main-title .line2 {
-  display: block;
-  margin-top: 10px;
-  font-size: 46px;
-  font-weight: 700;
-  color: #111827;
-}
+    .main-title .line2 {
+      display: block;
+      margin-top: 10px;
+      font-size: 46px;
+      font-weight: 700;
+      color: #111827;
+    }
 
-    .header p {
-      margin-top: 18px;
-      font-size: 18px;
-      color: #555;
+    /* 전체 소개글 글자 크기 및 줄간격 조절 */
+    .header .sub-description {
+      font-size: 14.5px;
+      line-height: 1.6;
+      color: #333333;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    /* 프로그램 및 운영 방식 구역 스타일 */
+    .program-section, .operation-section {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    /* 섹션 소제목 스타일 */
+    .section-title {
+      font-size: 15px;
+      font-weight: bold;
+      color: #111111;
+      margin-bottom: 8px;
+    }
+
+    /* 각 항목 본문 글자 크기 및 줄간격 */
+    .program-item, .operation-item {
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: #555555;
+      margin-bottom: 6px;
+      padding-left: 5px;
     }
 
     .section {
@@ -143,6 +138,39 @@
       font-size: 18px;
     }
 
+    /* Q5 프로필 관련 스타일 */
+    .profile-intro, .profile-outro {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      color: #333333;
+    }
+
+    .profile-group {
+      margin-bottom: 18px;
+    }
+
+    .profile-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #111111;
+      margin: 0 0 8px 0;
+    }
+
+    .profile-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .profile-list li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #444444;
+      margin-bottom: 6px;
+      word-break: keep-all;
+    }
+
     footer {
       text-align: center;
       padding: 40px 20px;
@@ -151,7 +179,6 @@
     }
   </style>
 </head>
-
 <body>
 
 <div class="container">
@@ -282,7 +309,7 @@ AI가 교사를 대신하는 것이 아니라, 원장이 AI를 활용하여 학�
   </div>
 
 
-  <!-- Q5 -->
+ <!-- Q5 -->
   <div class="section">
     <div class="question">
       Q5. 원장님은 어떤 전문성과 경력을 갖고 계신가요? 
@@ -290,48 +317,54 @@ AI가 교사를 대신하는 것이 아니라, 원장이 AI를 활용하여 학�
 
     <div class="image-box">
       <img src="5.PNG" alt="관련 사진 5">
-      <div class="caption">Anna원장 소개 </div>
+      <div class="caption">Anna원장 소개</div>
       <img src="55.png" alt="관련 사진 5">
-      <div class="caption">Anna원장 인터뷰 기사들 </div>
+      <div class="caption">Anna원장 인터뷰 기사들</div>
       <img src="원장특허.PNG" alt="관련 사진 5">
-      <div class="caption">Anna원장 특허출원 </div>
+      <div class="caption">Anna원장 특허출원</div>
     </div>
 
     <div class="answer">
-      <strong></strong> 애나에이아이(Anna AI)영어학원의 통합 수업은 영어교육, 뉴스 콘텐츠 제작, AI 활용 교육 경험을 갖춘 원장이 직접 설계하고 지도합니다.
+      <p class="profile-intro">
+        애나에이아이(Anna AI) 영어학원의 통합 수업은 영어교육, 뉴스 콘텐츠 제작, AI 활용 교육 경험을 갖춘 원장이 직접 설계하고 지도합니다.
+      </p>
 
-👉 영어교육 전문성
+      <!-- 👉 영어교육 전문성 -->
+      <div class="profile-group">
+        <h4 class="profile-title">👉 영어교육 전문성</h4>
+        <ul class="profile-list">
+          <li>① Macquarie University 영어교육 석사</li>
+          <li>② 서강대학교 국제대학원 석사</li>
+          <li>③ 20년 이상 영어교육 연구·개발 및 지도 경력</li>
+          <li>④ 인천시교육연수원 초·중등 영어교사 직무심화연수 강의</li>
+          <li>⑤ 2013년부터 영어학원 운영 및 ReadingGate 영어도서관 지도</li>
+        </ul>
+      </div>
 
-Macquarie University 영어교육 석사
+      <!-- 👉 뉴스·융합교육 전문성 -->
+      <div class="profile-group">
+        <h4 class="profile-title">👉 뉴스·융합교육 전문성</h4>
+        <ul class="profile-list">
+          <li>① The Junior Herald 영자신문 NIE 학습자료 6년간 제작</li>
+          <li>② 네이버 프리미엄콘텐츠 뉴스 회화 학습자료 연재</li>
+          <li>③ Class101 융합사고력 영어교육 강의</li>
+          <li>④ 영어교육과 국제통상 분야의 학문적 배경을 활용한 뉴스 기반 교육</li>
+        </ul>
+      </div>
 
-서강대학교 국제대학원 석사
+      <!-- 👉 AI 교육 연구 -->
+      <div class="profile-group">
+        <h4 class="profile-title">👉 AI 교육 연구</h4>
+        <ul class="profile-list">
+          <li>① 코딩 3급 자격증</li>
+          <li>② NIPA 인공지능교육 수료</li>
+          <li>③ 융합사고력 교육 관련 국내 특허 3건 출원</li>
+        </ul>
+      </div>
 
-20년 이상 영어교육 연구·개발 및 지도 경력
-
-인천시교육연수원 초·중등 영어교사 직무심화연수 강의
-
-2013년부터 영어학원 운영 및 ReadingGate 영어도서관 지도
-
-👉 뉴스·융합교육 전문성
-
-The Junior Herald 영자신문 NIE 학습자료 6년간 제작
-
-네이버 프리미엄콘텐츠 뉴스 회화 학습자료 연재
-
-Class101 융합사고력 영어교육 강의
-
-영어교육과 국제통상 분야의 학문적 배경을 활용한 뉴스 기반 교육
-
-👉 AI 교육 연구
-
-코딩 3급 자격증
-
-NIPA 인공지능교육 수료
-
-융합사고력 교육 관련 국내 특허 3건 출원
-
-👉 이러한 교육 및 연구 경험을 바탕으로 원장이 직접 Anna AI 영어학원의 질문 중심 융합교육 프로그램을 운영합니다.
-
+      <p class="profile-outro">
+        👉 이러한 교육 및 연구 경험을 바탕으로 원장이 직접 Anna AI 영어학원의 질문 중심 융합교육 프로그램을 운영합니다.
+      </p>
     </div>
   </div>
 
